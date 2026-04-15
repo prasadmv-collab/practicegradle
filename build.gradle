@@ -29,9 +29,10 @@ dependencies {
 
 // Define the main class for the application
 mainClassName = 'App'
-task dis{
-doLast{
-	println"rcb!!!"
-	}
-}
 
+// we can add user defined tasks 
+task display{
+doLast{
+println '6D devops class'
+}
+}
